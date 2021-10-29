@@ -9,7 +9,7 @@ const Package = () => {
         .then(data => setPackages(data))
     }, [])
     return (
-        <div className="container">
+        <div id="package" className="container" >
             <h2>Toure Packages</h2>
             <div className="row">
                 {
