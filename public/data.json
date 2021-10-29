@@ -1,0 +1,72 @@
+[
+    {
+      "title": "Dhaka to Kyoto",
+      "img": "https://i.ibb.co/9vGdWGJ/community2.jpg",
+      "description": "Travel is the movement of people between distant geographical locations Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, without luggage, and can be one way or round trip Travel can also include relatively short stays between successive movements, as in case ",
+      "price": 2999,
+      "duration": "7 days",
+      "person": "2",
+      "date": "22/11/21",
+      "food": "Include"
+    },
+    {
+      "title": "Dhaka to Venice",
+      "img": "https://i.ibb.co/9vGdWGJ/community2.jpg",
+      "description": "Travel is the movement of people between distant geographical locations Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, without luggage, and can be one way or round trip Travel can also include relatively short stays between successive movements, as in case ",
+      "price": 1959,
+      "duration": "10 days",
+      "person": "2",
+      "date": "22/11/21",
+      "food": "Include"
+    },
+    {
+      "title": "Dhaka to Nepal",
+      "img": "https://i.ibb.co/9vGdWGJ/community2.jpg",
+      "description": "Travel is the movement of people between distant geographical locations Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, without luggage, and can be one way or round trip Travel can also include relatively short stays between successive movements, as in case ",
+      "price": 1199,
+      "duration": "7 days",
+      "person": "3",
+      "date": "22/11/21",
+      "food": "Include"
+    },
+    {
+      "title": "Dhaka to NewZealand",
+      "img": "https://i.ibb.co/9vGdWGJ/community2.jpg",
+      "description": "Travel is the movement of people between distant geographical locations Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, without luggage, and can be one way or round trip Travel can also include relatively short stays between successive movements, as in case ",
+      "price": 1999,
+      "duration": "5 days",
+      "person": "2",
+      "date": "22/11/21",
+      "food": "Include"
+    },
+    {
+      "title": "Dhaka to France",
+      "img": "https://i.ibb.co/9vGdWGJ/community2.jpg",
+      "description": "Travel is the movement of people between distant geographical locations Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, without luggage, and can be one way or round trip Travel can also include relatively short stays between successive movements, as in case ",
+      "price": 2999,
+      "duration": "12 days",
+      "person": "2",
+      "date": "22/11/21",
+      "food": "Include"
+    },
+    {
+      "title": "Dhaka to AmaZone",
+      "img": "https://i.ibb.co/9vGdWGJ/community2.jpg",
+      "description": "Travel is the movement of people between distant geographical locations Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, without luggage, and can be one way or round trip Travel can also include relatively short stays between successive movements, as in case ",
+      "price": 1899,
+      "duration": "7 days",
+      "person": "1",
+      "date": "22/11/21",
+      "food": "Include"
+    },
+    {
+      "title": "Dhaka to LongBeach",
+      "img": "https://i.ibb.co/9vGdWGJ/community2.jpg",
+      "description": "Travel is the movement of people between distant geographical locations Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, without luggage, and can be one way or round trip Travel can also include relatively short stays between successive movements, as in case ",
+      "price": 2199,
+      "duration": "10 days",
+      "person": "2",
+      "date": "22/11/21",
+      "food": "Include"
+    }
+  ]
