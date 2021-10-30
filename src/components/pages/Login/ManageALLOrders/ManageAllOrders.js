@@ -1,9 +1,54 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { Table } from 'react-bootstrap';
 
 const ManageAllOrders = () => {
+    const [orders, setOrders] = useState([]);
+
+    useEffect(() => {
+        fetch('https://quiet-fjord-24073.herokuapp.com/orders')
+        .then(res => res.json())
+        .then(data => setOrders(data))
+    }, [])
+
+    const handleOrderDelete = id => {
+        const proceed = window.confirm('Are you Sure! you want to detete the Order?')
+        fetch(`https://quiet-fjord-24073.herokuapp.com/orders/${id}`, {
+            method: 'DELETE'
+        })
+        .then(res => res.json())
+        .then(result => {
+            if(result.deletedCount > 0){
+                alert('Order deleted Successfully.')
+            }
+        })
+    }
     return (
-        <div>
+        <div className="container py-5" style={{minHeight: '100vh'}}>
             <h2>Manage All Orders</h2>
+            <div className="row pt-5">
+                <div className="col-md-12">
+                    <Table striped bordered hover>
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Package</th>
+                            <th>Manage Order</th>
+                          </tr>
+                        </thead>
+                        {
+                            orders.map(order => <tbody>
+                                <tr>
+                                  <td>{order.name}</td>
+                                  <td>{order.email}</td>
+                                  <td>{order.packageName}</td>
+                                  <td><button onClick={() => handleOrderDelete(order._id)} className="border border-info bg-danger text-light rounded">Delete</button></td>
+                                </tr>
+                              </tbody>)
+                        }
+                    </Table>
+                </div>
+            </div>
         </div>
     );
 };

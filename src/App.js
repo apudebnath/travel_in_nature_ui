@@ -11,6 +11,8 @@ import ManageAllOrders from './components/pages/Login/ManageALLOrders/ManageAllO
 import AddNewPackage from './components/pages/Login/AddNewPackage/AddNewPackage';
 import About from './components/pages/About/About';
 import AuthProvider from './context/AuthProvider/AuthProvider';
+import OrderSubmission from './components/pages/Login/OrderSubmission/OrderSubmission';
+import PrivateRoute from './components/pages/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -31,6 +33,9 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
+            <PrivateRoute path="/orderSubmission/:packageId">
+              <OrderSubmission></OrderSubmission>
+            </PrivateRoute>
             <Route path="/addPackage">
               <AddNewPackage></AddNewPackage>
             </Route>
