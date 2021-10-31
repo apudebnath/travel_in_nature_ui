@@ -27,7 +27,7 @@ const OrderSubmission = () => {
         fetch(`https://quiet-fjord-24073.herokuapp.com/packages/${packageId}`)
         .then(res => res.json())
         .then(data => setPack(data))
-    }, [])
+    }, [packageId])
 
 
     return (
@@ -58,7 +58,7 @@ const OrderSubmission = () => {
                             <form onSubmit={handleSubmit(onSubmit)}>
                                 <input defaultValue={user.displayName} {...register("name", { required: true})} placeholder="Name" />
                                 <input defaultValue={user.email} {...register("email", { required: true})} placeholder="Email" />
-                                <input defaultValue= {pack.title}{...register("packageName", { required: true})} placeholder="Package-Name" />
+                                <input defaultValue={pack.title}{...register("packageName", { required: true})} placeholder="Package-Name" />
                                 <input {...register("city", { required: true})} placeholder="Your City" />
                                 <input {...register("address", { required: true})} placeholder="Your Address" />
                                 <input className="text-success fw-bold fs-5" type="submit" value="Place a Booking"/>

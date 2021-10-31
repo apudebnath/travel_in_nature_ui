@@ -29,11 +29,11 @@ const Navigation = () => {
                             <Nav.Link as={Link} to="/addPackage">Add Package</Nav.Link>
                             <Nav.Link as={Link} to="/myOrder">My Order</Nav.Link>
                             <Nav.Link as={Link} to="/manageOrder">Manage Order</Nav.Link>
-                            <Button onClick={logOut} className="bg-info border border-secondary rounded py-0 my-0"  size="small">LogOut</Button> 
+                            <Button onClick={logOut} className="bg-info border border-primary rounded py-0 my-0"  size="small">LogOut</Button> 
                         </div> }
                     </Nav>
                     <Navbar.Text>
-                        <span>Signed:<span className="fw-bold">{user.email}</span></span>
+                        <span className=" ps-3">Signed:</span> <span className="fw-bold text-success">{user.email}</span>
                     </Navbar.Text>
                     </Navbar.Collapse>
                     </Container>
