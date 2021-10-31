@@ -12,7 +12,7 @@ const li = <FontAwesomeIcon icon = {faLinkedin}/>
 
 const Footer = () => {
     return (
-        <div className="container-fluid" style={{backgroundColor: 'rgb(224, 241, 245)'}}>
+        <div className="container-fluid pt-3" style={{backgroundColor: 'rgb(224, 241, 245)'}}>
             <div className="" >
                 <div className="row">
                     <div className="col-md-3">

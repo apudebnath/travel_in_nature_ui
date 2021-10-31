@@ -48,14 +48,14 @@ const TravelInfo = () => {
                             <Accordion.Header>Various other features for a travel package.
                             </Accordion.Header>
                             <Accordion.Body>
-                                Here are 24 signs you're a good traveler. Good: You go with the flow. Whether it's a flight delay or a noisy hotel neighbor, so much is beyond your control when you travel. Letting go is liberating, and accepting situations for what they are is part of the fun
+                            We have delved into our data to see what our customers want when they are looking for their next sporty getaway. According to TravelInNature.com Group data, since May of this year, the number of sports-related bookings in mainland China has increased nearly 6.6 times.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="5">
                             <Accordion.Header>Best  Gift and others Package
                             </Accordion.Header>
                             <Accordion.Body>
-                                Here are 24 signs you're a good traveler. Good: You go with the flow. Whether it's a flight delay or a noisy hotel neighbor, so much is beyond your control when you travel. Letting go is liberating, and accepting situations for what they are is part of the fun
+                            The most popular sports travel themes this summer. Rafting, hiking and swimming all grew rapidly in popularity this year, surpassing pre-pandemic figures for the same period. To cool off this summer, adventurous travellers in mainland
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>

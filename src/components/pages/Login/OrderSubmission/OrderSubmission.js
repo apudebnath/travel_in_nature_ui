@@ -20,7 +20,6 @@ const OrderSubmission = () => {
             if(res.data.insertedId)
             alert("Order submitted Successfully.")
         })
-        console.log(data);
         reset();  
     };
 
@@ -29,6 +28,8 @@ const OrderSubmission = () => {
         .then(res => res.json())
         .then(data => setPack(data))
     }, [])
+
+
     return (
         <div className="py-5 h-100 container-fluid">
             <h2>Please Submit Your Order</h2>
@@ -57,9 +58,9 @@ const OrderSubmission = () => {
                             <form onSubmit={handleSubmit(onSubmit)}>
                                 <input defaultValue={user.displayName} {...register("name", { required: true})} placeholder="Name" />
                                 <input defaultValue={user.email} {...register("email", { required: true})} placeholder="Email" />
-                                <input {...register("packageName", { required: true})} placeholder="Please write the Package-Name" />
+                                <input defaultValue= {pack.title}{...register("packageName", { required: true})} placeholder="Package-Name" />
                                 <input {...register("city", { required: true})} placeholder="Your City" />
-                                <input {...register("destination", { required: true})} placeholder="Your destination" />
+                                <input {...register("address", { required: true})} placeholder="Your Address" />
                                 <input className="text-success fw-bold fs-5" type="submit" value="Place a Booking"/>
                             </form>
                             </div>

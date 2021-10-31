@@ -21,7 +21,7 @@ const Navigation = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" style={{fontSize: '16px', fontWeight: '500'}}>
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
-                        {/* <Nav.Link as={HashLink} to="/home#package">Package</Nav.Link> */}
+                        <Nav.Link as={HashLink} to="/home#package">Package</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
                         {!user?.email ? <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         :
@@ -31,7 +31,6 @@ const Navigation = () => {
                             <Nav.Link as={Link} to="/manageOrder">Manage Order</Nav.Link>
                             <Button onClick={logOut} className="bg-info border border-secondary rounded py-0 my-0"  size="small">LogOut</Button> 
                         </div> }
-                        <Nav.Link as={Link} to="/register">Register</Nav.Link>
                     </Nav>
                     <Navbar.Text>
                         <span>Signed:<span className="fw-bold">{user.email}</span></span>

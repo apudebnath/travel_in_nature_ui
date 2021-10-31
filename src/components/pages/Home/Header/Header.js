@@ -4,11 +4,11 @@ import { Carousel } from 'react-bootstrap';
 const Header = () => {
     return (
         <div className="container-fluid m-0 p-0"  >
-            <Carousel style={{height: ''}}>
-                <Carousel.Item>
+            <Carousel >
+                <Carousel.Item >
                   <img
                     className="d-block img-fluid"
-                    style={{height: 'auto'}}
+                    style={{ width: '100%', height:'530px',objectFit:'cover'}}
                     src="https://i.ibb.co/6sMJ2ky/banner1.jpg"
                     alt="First slide"
                   />
@@ -20,7 +20,7 @@ const Header = () => {
                 <Carousel.Item>
                   <img
                     className="img-fluid"
-                    style={{height: 'auto'}}
+                    style={{ width: '100%', height:'530px',objectFit:'cover'}}
                     src="https://i.ibb.co/q1p9M7h/banner2.jpg"
                     alt="Second slide"
                   />
@@ -33,7 +33,7 @@ const Header = () => {
                 <Carousel.Item>
                   <img
                     className="img-fluid"
-                    style={{height: 'auto'}}
+                    style={{ width: '100%', height:'530px',objectFit:'cover'}}
                     src="https://i.ibb.co/NLW0zsF/banner3.jpg"
                     alt="Third slide"
                   />
