@@ -17,9 +17,9 @@ const AddNewPackage = () => {
 
     return (
         <div className="addpackage">
-            <h2>Add New Package</h2>
+            <h2 className="text-light">Add New Package</h2>
             <div className="row justify-content-center pt-3 ">
-                <div className="col-md-4">
+                <div className="col-md-4 bgStyle">
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <input {...register("title", { required: true,})} placeholder="Title" />
                         <textarea {...register("description", { required: true,})} placeholder="Description"/>

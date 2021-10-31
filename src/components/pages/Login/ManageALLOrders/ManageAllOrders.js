@@ -31,7 +31,7 @@ const ManageAllOrders = () => {
             <h2>Manage All Orders</h2>
             <div className="row pt-5">
                 <div className="col-md-12">
-                    <Table striped bordered hover>
+                    <Table striped bordered hover responsive>
                         <thead>
                           <tr>
                             <th>Name</th>

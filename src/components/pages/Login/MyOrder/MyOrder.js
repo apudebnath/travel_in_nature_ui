@@ -37,8 +37,8 @@ const MyOrder = () => {
         <div className="container py-5" style={{minHeight: '100vh'}}>
             <h2>My Orders</h2>
             <div className="row pt-5 justify-content-center align-items-center">
-                <div className="col-md-10 col-12 px-3">
-                    <Table striped bordered hover>
+                <div className="col-md-10 col-12 px-2">
+                    <Table striped bordered hover responsive>
                         <thead>
                           <tr>
                             <th>Name</th>
