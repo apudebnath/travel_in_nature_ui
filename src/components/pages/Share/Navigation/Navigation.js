@@ -25,9 +25,9 @@ const Navigation = () => {
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
                         {!user?.email ? <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         :
-                        <div className="d-flex">
+                        <div className="d-flex justify-content-between">
                             <Nav.Link as={Link} to="/addPackage">Add Package</Nav.Link>
-                            <Nav.Link as={Link} to="/myOrder">My Order</Nav.Link>
+                            <Nav.Link className="px-1" as={Link} to="/myOrder">My Order</Nav.Link>
                             <Nav.Link as={Link} to="/manageOrder">Manage Order</Nav.Link>
                             <Button onClick={logOut} className="bg-info border border-primary rounded py-0 my-0"  size="small">LogOut</Button> 
                         </div> }

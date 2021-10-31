@@ -10,7 +10,7 @@ const HappyClients = () => {
                         <img className="img-fluid border rounded-circle w-50" src="https://i.ibb.co/8YwTzMB/Untitled-3.jpg" alt="" />
                     </div>
                     <div className="col-md-8 pt-5">
-                        <p>With a world full of fascinating destinations, choosing the perfect vacation spot can present a  challenge. That's why U.S. News used expert opinions,reader votes and current trends – and evaluatedsights</p>
+                        <p>With a world full of Fascinating destinations, choosing the perfect vacation spot can present a  challenge. That's why U.S. News used expert opinions, reader votes and current trends – and I appreciate <b>Travel In Nature</b> and this is an evaluated-sight. </p>
                         <h6 className="text-end">STELLA JESON -</h6>
                     </div>
                 </div>

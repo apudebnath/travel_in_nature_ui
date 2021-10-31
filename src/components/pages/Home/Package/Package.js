@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faCartPlus} from '@fortawesome/free-solid-svg-icons'
+const cart = <FontAwesomeIcon icon={faCartPlus} />
+
 
 const Package = () => {
     const [packages, setPackages] = useState([]);
@@ -31,7 +35,7 @@ const Package = () => {
                                 <h5>Price: ${pack.price}</h5>
                             </div>
                             <div className="col-md-6 pt-2">
-                                <Link to={`/orderSubmission/${pack._id}`}><Button>BookNow</Button></Link>
+                                <Link to={`/orderSubmission/${pack._id}`}><Button><span>{cart}</span> BookNow</Button></Link>
                             </div>
                         </div>
                     </div>

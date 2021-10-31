@@ -13,8 +13,8 @@ const Header = () => {
                     alt="First slide"
                   />
                   <Carousel.Caption>
-                    <h3>Nature Cutting down on Stress</h3>
-                    <p>Traveling is one of the best ways to enjoy more about yourself.</p>
+                    <h3 style={{fontSize: '48px'}}>Nature Cutting down on Stress</h3>
+                    <p style={{fontSize: '22px'}}>Traveling is one of the best ways to enjoy more about yourself.</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -26,8 +26,8 @@ const Header = () => {
                   />
             
                   <Carousel.Caption>
-                    <h3>Explore TravelINnature in the Winter</h3>
-                    <p>Some of the most beautiful places in the world, breathtaking waterfalls, and adventure.</p>
+                    <h3 style={{fontSize: '48px'}}>Explore TravelINnature in the Winter</h3>
+                    <p style={{fontSize: '22px'}}>Some of the most beautiful places in the world, breathtaking waterfalls, and adventure.</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -39,8 +39,8 @@ const Header = () => {
                   />
             
                   <Carousel.Caption>
-                    <h3>Live unforgettable experiences</h3>
-                    <p>Our fantastic destinations are ready for your visit.</p>
+                    <h3 style={{fontSize: '48px'}}>Live unforgettable experiences</h3>
+                    <p style={{fontSize: '22px'}}>Our fantastic destinations are ready for your visit.</p>
                   </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
